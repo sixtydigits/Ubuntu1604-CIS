@@ -29,8 +29,8 @@
   file:
       dest: /etc/shadow
       owner: root
-      group: shadow
-      mode: 0750
+      group: root
+      mode: 0000
   when:
       - ubuntu1604cis_rule_6_1_3
   tags:
