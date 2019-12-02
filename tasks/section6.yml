@@ -29,7 +29,7 @@
   file:
       dest: /etc/shadow
       owner: root
-      group: root
+      group: shadow
       mode: 0000
   when:
       - ubuntu1604cis_rule_6_1_3
