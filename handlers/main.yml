@@ -48,6 +48,12 @@
       name: firewalld
       state: restarted
 
+- name: restart chrony
+  become: true
+  service:
+      name: chrony
+      state: restarted
+
 - name: restart xinetd
   become: true
   service:

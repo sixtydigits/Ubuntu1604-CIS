@@ -294,6 +294,7 @@
       owner: root
       group: root
       mode: 0644
+  notify: restart chrony
   when:
       - ubuntu1604cis_time_synchronization == "chrony"
       - ubuntu1604cis_rule_2_2_1_3
